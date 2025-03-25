@@ -10,7 +10,7 @@ let audioNames = {
 };
 
 function playsound(sound) {
-  let audio = new Audio(`sounds/${sound}.mp3`);
+  let audio = new Audio(`${sound}.mp3`);
   audio.play();
 }
 
